@@ -32,7 +32,9 @@
     "test:watch": "TZ=UTC jest --watch",
     "test:coverage": "TZ=UTC jest --coverage",
     "test:types": "npm run build && npm run check:types",
-    "check:types": "node tests/types/check.mjs"
+    "check:types": "node tests/types/check.mjs",
+    "changelog": "conventional-changelog -p angular -n changelog.config.js -i CHANGELOG.md -s",
+    "changelog:full": "conventional-changelog -p angular -n changelog.config.js -i CHANGELOG.md -s -r 0"
   },
   "repository": {
     "type": "git",
@@ -62,6 +64,7 @@
     "@nextcloud/eslint-plugin": "^2.2.1",
     "@nextcloud/vite-config": "^2.5.4",
     "babel-jest": "^30.5.2",
+    "conventional-changelog-cli": "^5.0.0",
     "eslint": "^10.15.0",
     "jest": "^30.5.2",
     "typescript": "^6.0.3",
