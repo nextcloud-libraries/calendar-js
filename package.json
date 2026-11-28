@@ -54,8 +54,8 @@
     "npm": "^11.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^8.1.2",
-    "@babel/preset-env": "^8.0.7",
+    "@babel/core": "^8.1.4",
+    "@babel/preset-env": "^8.1.4",
     "@nextcloud/babel-config": "^2.0.0",
     "@nextcloud/browserslist-config": "^3.1.2",
     "@nextcloud/eslint-config": "^9.0.1",
